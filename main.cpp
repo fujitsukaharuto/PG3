@@ -4,7 +4,7 @@
 
 int CalWage(int wage,int time,int limite) {
 	// ˜J“­ãŒÀ
-	if (time == limite) {
+	if (time >= limite) {
 		return wage;
 	}
 	time++;
