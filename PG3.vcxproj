@@ -127,7 +127,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Crow.cpp" />
+    <ClCompile Include="Sparrow.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Bird.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Crow.h" />
+    <ClInclude Include="Sparrow.h" />
+    <ClInclude Include="Bird.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
