@@ -15,8 +15,8 @@ T compar(T a, T b) {
 
 template<>
 char compar<char>(char a, char b) {
-
-	std::cout << "”šˆÈŠO‚Í‘ã“ü‚Å‚«‚Ü‚¹‚ñ" << std::endl;
+	
+	std::cout << "æ•°å­—ä»¥å¤–ã¯ä»£å…¥ã§ãã¾ã›ã‚“" << std::endl;
 	return '\0';
 
 }
