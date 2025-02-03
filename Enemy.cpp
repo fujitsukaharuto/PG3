@@ -21,13 +21,13 @@ void Enemy::Update() {
 
 	(this->*spFuncTable[static_cast<size_t>(phase_)])();
 
-	// ‚¢‚ë‚ñ‚Èˆ—
+	// ã„ã‚ã‚“ãªå‡¦ç†
 
 }
 
 void Enemy::Approach() {
 	if (isNotice_) {
-		std::cout << "[[[Ú‹ß’†[[[" << std::endl;
+		std::cout << "ãƒ¼ãƒ¼ãƒ¼æŽ¥è¿‘ä¸­ãƒ¼ãƒ¼ãƒ¼" << std::endl;
 		std::cout << std::endl;
 		isNotice_ = false;
 	}
@@ -35,7 +35,7 @@ void Enemy::Approach() {
 
 void Enemy::Attack() {
 	if (isNotice_) {
-		std::cout << "[[[ŽËŒ‚’†[[[" << std::endl;
+		std::cout << "ãƒ¼ãƒ¼ãƒ¼å°„æ’ƒä¸­ãƒ¼ãƒ¼ãƒ¼" << std::endl;
 		std::cout << std::endl;
 		isNotice_ = false;
 	}
@@ -43,7 +43,7 @@ void Enemy::Attack() {
 
 void Enemy::Withdrawal() {
 	if (isNotice_) {
-		std::cout << "[[[—£’E‚µ‚½[[[" << std::endl;
+		std::cout << "ãƒ¼ãƒ¼ãƒ¼é›¢è„±ã—ãŸãƒ¼ãƒ¼ãƒ¼" << std::endl;
 		std::cout << std::endl;
 		isNotice_ = false;
 	}
