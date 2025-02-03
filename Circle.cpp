@@ -14,5 +14,5 @@ void Circle::Size() {
 }
 
 void Circle::Draw() {
-	std::cout << "�ʐς�" << area << std::endl;
+	std::cout << "面積は" << area << std::endl;
 }

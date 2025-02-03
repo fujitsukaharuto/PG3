@@ -14,5 +14,5 @@ void Rectangle::Size() {
 }
 
 void Rectangle::Draw() {
-	std::cout << "�ʐς�" << area << std::endl;
+	std::cout << "面積は" << area << std::endl;
 }
