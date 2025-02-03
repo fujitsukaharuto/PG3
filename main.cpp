@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <cstdio>
 #include <cctype>
 #include <iostream>
 #include <Windows.h>
