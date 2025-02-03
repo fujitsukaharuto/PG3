@@ -1,13 +1,13 @@
 #include <iostream>
 #include <Windows.h>
 
-template <typename T1,typename T2>
+template <typename T1, typename T2>
 class Compare {
 public:
 	T1 firstDigit;
 	T2 secondDigit;
 
-	Compare(T1 first,T2 second):firstDigit(first),secondDigit(second){}
+	Compare(T1 first, T2 second) :firstDigit(first), secondDigit(second) {}
 
 	T1 Min() {
 		return static_cast<T1>(firstDigit < secondDigit ? firstDigit : secondDigit);
