@@ -34,14 +34,14 @@ int main() {
 
 
 	std::cout << std::endl;
-	std::cout << "ƒ\[ƒg‘O" << std::endl;
+	std::cout << "ã‚½ãƒ¼ãƒˆå‰" << std::endl;
 	for_each(std::begin(nameList), std::end(nameList),
 		[](std::string& i) {std::cout << i << std::endl; });
 
 	sort(nameList.begin(), nameList.end());
 
 	std::cout << std::endl;
-	std::cout << "ƒ\[ƒgŒã" << std::endl;
+	std::cout << "ã‚½ãƒ¼ãƒˆå¾Œ" << std::endl;
 	for_each(std::begin(nameList), std::end(nameList),
 		[](std::string& i) {std::cout << i << std::endl; });
 
