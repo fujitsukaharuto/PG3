@@ -12,7 +12,7 @@ int main() {
 		"Tamachi","Hamamatsucho","Shimbashi","Yurakucho"
 	};
 
-	std::cout << "1970”N" << std::endl;
+	std::cout << "1970å¹´" << std::endl;
 	for (std::list<const char*>::iterator itr = yamanoteLine.begin();
 		itr != yamanoteLine.end(); ++itr) {
 		std::cout << *itr << std::endl;
@@ -29,7 +29,7 @@ int main() {
 	}
 
 	std::cout << std::endl;
-	std::cout << "2019”N" << std::endl;
+	std::cout << "2019å¹´" << std::endl;
 	for (std::list<const char*>::iterator itr = yamanoteLine.begin();
 		itr != yamanoteLine.end(); ++itr) {
 		std::cout << *itr << std::endl;
@@ -46,7 +46,7 @@ int main() {
 	}
 
 	std::cout << std::endl;
-	std::cout << "2022”N" << std::endl;
+	std::cout << "2022å¹´" << std::endl;
 	for (std::list<const char*>::iterator itr = yamanoteLine.begin();
 		itr != yamanoteLine.end(); ++itr) {
 		std::cout << *itr << std::endl;
