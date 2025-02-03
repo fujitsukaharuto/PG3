@@ -1,12 +1,12 @@
 #include "Crow.h"
 
 Crow::Crow() {
-	name = "カラス";
+	name = "繧ｫ繝ｩ繧ｹ";
 }
 
 Crow::~Crow() {
 }
 
 void Crow::Sing() {
-	std::cout << "カー" << std::endl;
+	std::cout << "繧ｫ繝ｼ" << std::endl;
 }

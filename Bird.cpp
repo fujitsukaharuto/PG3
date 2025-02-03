@@ -4,7 +4,7 @@ Bird::Bird() {
 }
 
 Bird::~Bird() {
-	std::cout << name << "‚Í‚Ç‚±‚©‚É”ò‚ñ‚Å‚¢‚Á‚½" << std::endl;
+	std::cout << name << "ã¯ã©ã“ã‹ã«é£›ã‚“ã§ã„ã£ãŸ" << std::endl;
 }
 
 void Bird::Sing() {

@@ -1,12 +1,12 @@
 #include "Sparrow.h"
 
 Sparrow::Sparrow() {
-	name = "ÉXÉYÉÅ";
+	name = "„Çπ„Ç∫„É°";
 }
 
 Sparrow::~Sparrow() {
 }
 
 void Sparrow::Sing() {
-	std::cout << "É`ÉÖÉì" << std::endl;
+	std::cout << "„ÉÅ„É•„É≥" << std::endl;
 }
