@@ -15,7 +15,7 @@ T compar(T a, T b) {
 
 template<>
 char compar<char>(char a, char b) {
-	std::cout << "あい" << std::endl;
+
 	std::cout << "数字以外は代入できません" << std::endl;
 	return '\0';
 
