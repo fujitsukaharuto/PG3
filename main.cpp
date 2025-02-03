@@ -2,8 +2,8 @@
 #include <Windows.h>
 #include <stdio.h>
 
-int CalWage(int wage,int time,int limite) {
-	// ˜J“­ãŒÀ
+int CalWage(int wage, int time, int limite) {
+	// åŠ´åƒä¸Šé™
 	if (time >= limite) {
 		return wage;
 	}
@@ -24,9 +24,9 @@ int main() {
 		recursiveWage = 100;
 		recursiveWage = CalWage(recursiveWage, 1, limiteTime);
 
-		printf("%dŠÔ“­‚¢‚½‚Í\n", limiteTime);
-		printf("ˆê”Ê“I‚È’À‹à‘ÌŒn : %d\n", normalWage);
-		printf("Ä‹A“I‚È’À‹à‘ÌŒn : %d\n\n", recursiveWage);
+		printf("%dæ™‚é–“åƒã„ãŸæ™‚ã¯\n", limiteTime);
+		printf("ä¸€èˆ¬çš„ãªè³ƒé‡‘ä½“ç³» : %d\n", normalWage);
+		printf("å†å¸°çš„ãªè³ƒé‡‘ä½“ç³» : %d\n\n", recursiveWage);
 
 		normalWage += kWage;
 		limiteTime++;
