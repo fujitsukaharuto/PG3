@@ -11,15 +11,15 @@ int Dice(std::mt19937& gene) {
 
 typedef void (*PFunc)(int*, int*);
 
-void Result(int *expect,int *diceNum) {
+void Result(int* expect, int* diceNum) {
 	if (*expect % 2 == 0 && *diceNum % 2 == 0
 		|| *expect % 2 == 1 && *diceNum % 2 == 1) {
-		printf("³‰ð\n");
+		printf("æ­£è§£\n");
 	}
 	else {
-		printf("•s³‰ð\n");
+		printf("ä¸æ­£è§£\n");
 	}
-	printf("ƒTƒCƒRƒ‚Ì–Ú : %d\n", *diceNum);
+	printf("ã‚µã‚¤ã‚³ãƒ­ã®ç›® : %d\n", *diceNum);
 }
 
 
@@ -48,27 +48,27 @@ int main() {
 
 	int expectation = 1;
 	while (expectation != 0) {
-		printf("Šï”‚È‚ç1‚ðA‹ô”‚È‚ç‚Q‚ð“ü—Í\n");
+		printf("å¥‡æ•°ãªã‚‰1ã‚’ã€å¶æ•°ãªã‚‰ï¼’ã‚’å…¥åŠ›\n");
 
 
 		int diceResult = Dice(generator);
 		if (std::cin >> expectation) {
 			switch (expectation) {
 			case 1:
-				printf("‚ ‚È‚½‚ª—\‘z‚µ‚½‚Ì‚ÍŠï”\n\n");
+				printf("ã‚ãªãŸãŒäºˆæƒ³ã—ãŸã®ã¯å¥‡æ•°\n\n");
 				break;
 			case 2:
-				printf("‚ ‚È‚½‚ª—\‘z‚µ‚½‚Ì‚Í‹ô”\n\n");
+				printf("ã‚ãªãŸãŒäºˆæƒ³ã—ãŸã®ã¯å¶æ•°\n\n");
 				break;
 			default:
-				printf("Žw’è‚³‚ê‚Ä‚¢‚é”Žš‚ð“ü—Í‚µ‚Ä‚­‚¾‚³‚¢\n\n");
+				printf("æŒ‡å®šã•ã‚Œã¦ã„ã‚‹æ•°å­—ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„\n\n");
 				continue;
 			}
 		}
-		printf("Œ‹‰Ê‚Í");
+		printf("çµæžœã¯");
 		WaitResult(fc, 3, expectation, diceResult);
 
-		printf("‘±‚¯‚é‚È‚ç‚P‚ðAI—¹‚·‚é‚È‚ç0‚ð‰Ÿ‚µ‚Ä‚­‚¾‚³‚¢\n");
+		printf("ç¶šã‘ã‚‹ãªã‚‰ï¼‘ã‚’ã€çµ‚äº†ã™ã‚‹ãªã‚‰0ã‚’æŠ¼ã—ã¦ãã ã•ã„\n");
 		if (std::cin >> expectation) {
 			printf("\n");
 		}
