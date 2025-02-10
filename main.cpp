@@ -38,8 +38,7 @@ int main() {
 		if (expectation % 2 == 0 && diceResult % 2 == 0
 			|| expectation % 2 == 1 && diceResult % 2 == 1) {
 			printf("正解\n");
-		}
-		else {
+		} else {
 			printf("不正解\n");
 		}
 		printf("サイコロの目 : %d\n", diceResult);
