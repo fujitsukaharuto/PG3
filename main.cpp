@@ -15,8 +15,7 @@ void Result(int* expect, int* diceNum) {
 	if (*expect % 2 == 0 && *diceNum % 2 == 0
 		|| *expect % 2 == 1 && *diceNum % 2 == 1) {
 		printf("正解\n");
-	}
-	else {
+	} else {
 		printf("不正解\n");
 	}
 	printf("サイコロの目 : %d\n", *diceNum);
