@@ -10,8 +10,7 @@ int main() {
 	for (int i = 0; i < 2; i++) {
 		if (i < 1) {
 			bird[i] = new Sparrow;
-		}
-		else {
+		} else {
 			bird[i] = new Crow;
 		}
 	}
