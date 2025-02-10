@@ -7,12 +7,10 @@ void Enemy::Update() {
 	if (phaseTime_ == 0) {
 		phase_ = Phase::Approach;
 		isNotice_ = true;
-	}
-	else if (phaseTime_ == 40) {
+	} else if (phaseTime_ == 40) {
 		phase_ = Phase::Attack;
 		isNotice_ = true;
-	}
-	else if (phaseTime_ == 80) {
+	} else if (phaseTime_ == 80) {
 		phase_ = Phase::Withdrawal;
 		isNotice_ = true;
 	}
